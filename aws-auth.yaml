@@ -7,7 +7,7 @@ data:
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
 kind: ConfigMap
-mapUsers: |
+  mapUsers: |
     - groups:
       - roboshop-trainee
       userarn: arn:aws:iam::646418206500:user/suresh
